@@ -1,7 +1,15 @@
-alert("teste");
 
-const endpoint = "https://localhost:7128/api/Pedidos/";
-let res = fetch(endpoint);
-console.log(res);
 
-//erro em CORS//
+
+const fetchApi = (value) => {
+    const result = fetch(`https://rickandmortyapi.com/api/character/${value}`)
+    .then((res) => res.json())
+    .then((data) => {
+        console.log(data);
+        return data;
+    });
+
+    return result;
+}
+
+fetchApi(2); 
