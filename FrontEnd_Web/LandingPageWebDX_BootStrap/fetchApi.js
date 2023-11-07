@@ -1,10 +1,10 @@
-const url = "https://localhost:7128/api/Pedidos/";
+const url = "https://localhost:7128/api/Produtos/2";
 
-async function getPedidos() {
+async function getProdutos() {
   let data = await fetch(url);
-  let pedido = await data.json();
+  let produto = await data.json();
 
-  alert(pedido[0]);
+  alert(produto[2]);
 }
 alert("teste");
-getPedidos();
+getProdutos();

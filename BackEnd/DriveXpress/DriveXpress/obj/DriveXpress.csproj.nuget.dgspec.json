@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\DriveXpress\\DriveXpress\\DriveXpress.csproj": {}
+    "C:\\Workspace\\TesteIntegracaoApi_DX\\BackEnd\\DriveXpress\\DriveXpress\\DriveXpress.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\DriveXpress\\DriveXpress\\DriveXpress.csproj": {
+    "C:\\Workspace\\TesteIntegracaoApi_DX\\BackEnd\\DriveXpress\\DriveXpress\\DriveXpress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
+        "projectUniqueName": "C:\\Workspace\\TesteIntegracaoApi_DX\\BackEnd\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
         "projectName": "DriveXpress",
-        "projectPath": "C:\\Workspace\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
+        "projectPath": "C:\\Workspace\\TesteIntegracaoApi_DX\\BackEnd\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
         "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\DriveXpress\\DriveXpress\\obj\\",
+        "outputPath": "C:\\Workspace\\TesteIntegracaoApi_DX\\BackEnd\\DriveXpress\\DriveXpress\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

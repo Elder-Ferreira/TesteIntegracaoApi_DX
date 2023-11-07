@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eU+GOAfuQ2kBWV6BgJGUd5CEFPE8cZFEiIzBw4Ow66gRi/sUr1XDEHGCDAWth0z2lLW8HCqwRJMmRJOJ09ClYw==",
+  "dgSpecHash": "DOntgcDtGNVPaXILjIA3R3lQCjRasQtC4G6UIzLq0Va2NN/FDoOG3ACN31RMBzP6/tKfok8Qw3E1lqDwyM6bVw==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
+  "projectFilePath": "C:\\Workspace\\TesteIntegracaoApi_DX\\BackEnd\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 10\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
