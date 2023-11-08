@@ -1,4 +1,6 @@
-const url = "https://localhost:7128/api/Produtos/2";
+const cors = require("cors");
+
+const url = "https://localhost:7128/api/Produtos";
 
 async function getProdutos() {
   let data = await fetch(url);
