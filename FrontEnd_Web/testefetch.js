@@ -1,5 +1,5 @@
 const fetchApi = (value) => {
-  const result = fetch(`https://rickandmortyapi.com/api/character/${value}`)
+  const result = fetch(`https://localhost:7128/api/Produtos/${value}`)
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
@@ -9,4 +9,7 @@ const fetchApi = (value) => {
   return result;
 };
 
-fetchApi(3);
+fetchApi(1);
+
+// https://rickandmortyapi.com/api/character/${value}
+// https://localhost:7128/api/Produtos/${value}
