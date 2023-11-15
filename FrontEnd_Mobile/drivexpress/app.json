@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "drivexpress",
+    "slug": "drivexpress",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
