@@ -1,0 +1,35 @@
+### PEDIDOS
+GET https://localhost:7128/api/pedidos
+
+
+### CREATE
+POST https://localhost:7128/api/produtos
+content-type: application/json
+
+{  
+  "nome": "Brûlée de arroz doce",
+  "quantidade": 1,
+  "descricao": "Arroz doce tão cremoso quanto mousse. Especiaria da casa",
+  "valor": 67.95,
+  "tipo": 1,
+  "restauranteId": 5
+}
+
+### UPDATE
+PUT https://localhost:7128/api/produtos/1
+content-type: application/json
+
+{
+	"nome": "Camarão",
+	"quantidade": 1,
+	"descricao": "Camarão Frito",
+	"valor": 39.99,
+	"tipo": 1,
+	"restauranteId": 1
+}
+
+### GET PEDIDOS
+GET http://localhost:3000/gastos/3
+
+### DELETE PEDIDOS
+DELETE http://localhost:3000/gastos/3

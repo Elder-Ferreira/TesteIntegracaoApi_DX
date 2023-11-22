@@ -17,16 +17,15 @@ PUT http://localhost:3000/users/3
 content-type: application/json
 
 {
-  "tipo": 1,
-  "data": "10/01/2022",
-  "preco": 7.5,
-  "valor": 130.00,
-  "odometro": 34000
+  "name": "Elder Ramos",
+  "email": "elder1@pucminas.br",
+  "password": "teste",
 }
 
 
-### GET GASTO
+
+### GET USER
 GET http://localhost:3000/users/3
 
-### DELETE GASTO
+### DELETE USER
 DELETE http://localhost:3000/users/3
