@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormData e Fetch API</title>
+</head>
+<body>
+    <form id="form-api">
+        <input placeholder="usuario" name="usuario" type="text">
+        <input placeholder="senha" name="senha" type="password">
+        <input name="checkbox" type="checkbox">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        const formEl = document.getElementById('form-api')
+
+        formEl.addEventListener('submit',evento => {
+            evento.preventDefault();
+
+
+            console.log("Escutei e não atualizei")
+        })
+
+    </script>
+</body>
+</html>

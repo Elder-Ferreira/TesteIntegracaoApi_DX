@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p id="cep">CEP: </p>
+        <p id="localidade">Localidade: </p>
+    </div>
+
+    <script>
+        let cep = document.querySelector("#cep")
+        let localidade = document.querySelector("#localidade")
+
+
+        fetch("https://viacep.com.br/ws/32420215/json/")
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                cep.innerHTML = data.cep
+                localidade.innerHTML = data.logradouro
+            })
+    </script>
+
+</body>
+
+</html>

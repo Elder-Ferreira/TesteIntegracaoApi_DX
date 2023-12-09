@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormData e Fetch API</title>
+</head>
+
+<body>
+    <form id="form-api">
+        <input placeholder="usuario" name="usuario" type="text">
+        <input placeholder="senha" name="senha" type="password">
+        <input placeholder="nacionalidade" name="nacionalidade" type="text">
+        <input name="checkbox" type="checkbox">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        const formEl = document.getElementById('form-api')
+
+        formEl.addEventListener('submit', evento => {
+            evento.preventDefault();
+
+            const formData = new FormData(formEl);
+            const data = Object.fromEntries(formData);
+
+            fetch('https://reqres.in/api/users', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            }).then(res => res.json()).then(data => console.log(data))
+        })
+    </script>
+</body>
+
+</html>
